@@ -1,0 +1,18 @@
+
+#  objects and its internal representation in Javascript:
+
+* 1 ---> Objects, in JavaScript, is it’s most important data-type and forms the building
+      blocks for modern JavaScript. These objects are quite different from
+      JavaScript’s primitive data-types(Number, String, Boolean, null, undefined
+      and symbol) in the sense that while these primitive data-types all store a
+      single value each (depending on their types).
+
+var myCar = new Object();
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969;
+
+* 2 ---> The JavaScript runtime uses the object wrapper to access and modify the
+     object's properties and methods. When you access a property or method on
+     an object, the runtime uses the object wrapper to find the property or
+     method and then calls it.
